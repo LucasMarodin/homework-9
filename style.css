@@ -1,10 +1,10 @@
 body {
-  background: lightblue;
+  background: #EDEDED;
 }
 /* every box is this size */
 
 .skyblue {
-  background: deepskyblue;
+  background: #8EB0B2;
 }
 
 .box{
@@ -23,7 +23,7 @@ body {
   margin-right: 0px;
   margin-left: 0px;
   padding: 25px;
-  background: #5D6D7E;
+  background: grey;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -36,6 +36,8 @@ body {
 }
 h1 {
   font-size: 35px;
+  color: #4BA096;
+  font-weight: 700;
 }
 h2 {
   font-size: 20px;
@@ -55,8 +57,8 @@ p{
   color: white;
   font-family: verdana;
   font-size: 40px;
-  background-color: #2874A6;
-  border: 1px solid #2874A6;
+  background-color: #4BA096;
+  border: 1px solid #4BA096;
     padding: 15px;
 }
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
